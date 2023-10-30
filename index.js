@@ -22,7 +22,7 @@ const connect = async ()=> {
 mongoose.connection.on('disconnected', () => {
     console.log('mongodb disconnected')
 })
-app.get('/', function(req,res){
+app.get('/test', function(req,res){
     res.send('first')
 })
 
