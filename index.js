@@ -35,6 +35,7 @@ app.use(
       "https://vsbookingapp-frontend.onrender.com",
       "https://vs-booking-app.vercel.app",
     ],
+    credentials: true,
   })
 );
 app.use(express.json());
